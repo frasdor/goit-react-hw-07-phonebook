@@ -65,7 +65,7 @@ const ContactForm = ({ onSubmit }) => {
             type="tel"
             name="number"
             pattern="^\d+(-\d+){0,2}$"
-            title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+            title="Phone number must be digits and can contain spaces, dashes, parentheses"
             required
             value={number}
             onChange={handleChange}
